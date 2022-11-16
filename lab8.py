@@ -21,7 +21,6 @@ def SquareEquation(a, b, c):
 Res = SquareEquation(2, 3, -5)
 
 if Res!=None:
-#Функцию вызываем впринте
     print('Result = ', Res)
 else:
     print('The equation has no roots')
