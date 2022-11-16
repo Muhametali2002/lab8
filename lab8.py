@@ -1,7 +1,6 @@
 import math
 # Функция возвращает решение уравнения в виде списка
 def SquareEquation(a, b, c):
-    # Вложенная функция Disc() вычисления дискриминанта
     def Disc(a, b, c):
         d = b*b-4*a*c
         return d
