@@ -1,5 +1,4 @@
 import math
-# Функция возвращает решение уравнения в виде списка
 def SquareEquation(a, b, c):
     def Disc(a, b, c):
         d = b*b-4*a*c
