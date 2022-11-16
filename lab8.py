@@ -1,5 +1,4 @@
 import math
-# Функция возвращает решение уравнения в виде списка
 def SquareEquation(a, b, c):
     # Вложенная функция Disc() вычисления дискриминанта
     def Disc(a, b, c):
@@ -19,7 +18,6 @@ def SquareEquation(a, b, c):
 # Вызвать функцию для решения уравнения 2*x^2+3*x-5=0
 
 Res = SquareEquation(2, 3, -5)
-
 if Res!=None:
     print('Result = ', Res)
 else:
